@@ -11,4 +11,8 @@ public class Game{
     public Integer score(){
         return 0;
     }
+
+    public void reset(){
+        this.score = 0;
+    }
 }
